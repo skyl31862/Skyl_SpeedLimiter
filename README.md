@@ -12,22 +12,22 @@ Fonctionnalités
 - Limiteur appliqué uniquement aux classes de véhicules autorisées.
 - Blocage de l’activation si le véhicule roule trop vite.
 - HUD optionnel à l’écran lorsque le limiteur est actif.
-- Support des notifications avec ESX ou ox_lib.
+- Support des notifications avec ESX / QBCORE / QBOX / CUSTOM ou ox_lib.
 - Fonctionnement client léger et propre.
 
 Prérequis
 
 - Serveur FiveM.
-- ESX.
+- ESX / QBCORE / QBOX / CUSTOM.
 - ox_lib facultatif si vous souhaitez utiliser ses notifications.
 
 Installation
 
 1. Placez la ressource dans le dossier resources de votre serveur.
-2. Vérifiez que le nom du dossier est bien skyl_limiteur.
+2. Vérifiez que le nom du dossier est bien skyl_speedlimiter.
 3. Ajoutez la ressource à votre configuration serveur :
 
-   ensure skyl_limiteur
+   ensure skyl_speedlimiter
 
 4. Configurez la ressource selon les besoins de votre serveur.
 5. Redémarrez le serveur ou relancez la ressource.
@@ -62,17 +62,15 @@ de touches de FiveM.
 
 Notifications
 
-Deux systèmes de notifications sont pris en charge :
+Systèmes de notifications sont pris en charge :
 
-- ESX
+- ESX / QBCORE / QBOX / CUSTOM.
 - ox_lib
 
 Le système utilisé peut être choisi dans la configuration.
 
 Notes
 
-- Le script est prévu pour les serveurs ESX.
-- Même si vous utilisez ox_lib pour les notifications, ESX reste nécessaire.
 - Le limiteur est pensé pour un usage classique en véhicule
   et dépend des classes autorisées dans la configuration.
 
@@ -100,22 +98,22 @@ Features
 - Limiter only applies to allowed vehicle classes.
 - Prevent activation if the vehicle is going too fast.
 - Optional on-screen HUD when the limiter is active.
-- Notification support with ESX or ox_lib.
+- Notification support with ESX / QBCORE / QBOX / CUSTOM or ox_lib.
 - Lightweight and clean client-side behavior.
 
 Requirements
 
 - FiveM server.
-- ESX.
+- ESX / QBCORE / QBOX / CUSTOM.
 - ox_lib is optional if you want to use its notifications.
 
 Installation
 
 1. Place the resource in your server's resources folder.
-2. Make sure the folder name is skyl_limiteur.
+2. Make sure the folder name is skyl_speedlimiter.
 3. Add the resource to your server configuration:
 
-   ensure skyl_limiteur
+   ensure skyl_speedlimiter
 
 4. Configure the resource to fit your server's needs.
 5. Restart the server or restart the resource.
@@ -150,17 +148,15 @@ change their shortcut directly in the FiveM keybind settings.
 
 Notifications
 
-Two notification systems are supported:
+Notification systems are supported:
 
-- ESX
+- ESX / QBCORE / QBOX / CUSTOM.
 - ox_lib
 
 The system used can be selected in the configuration.
 
 Notes
 
-- The script is designed for ESX servers.
-- Even if you use ox_lib for notifications, ESX is still required.
 - The limiter is intended for standard vehicle use
   and depends on the allowed classes set in the configuration.
 
